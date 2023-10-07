@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="add"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_reduce"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+
+        android:text="reduce"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+
+        android:text="clear"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/text_counter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#6393E6"
+        android:text="The current number is: 0."
+        android:textSize="20sp" />
+
+</LinearLayout>

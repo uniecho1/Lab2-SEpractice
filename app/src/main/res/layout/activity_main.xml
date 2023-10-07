@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FAF1DD"
+    android:background="@drawable/back"
     android:gravity="center_horizontal"
     android:orientation="vertical">
 
@@ -11,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Hello Android!"
+        android:textColor="#6393E6"
         android:textAlignment="center"
         android:textSize="20sp" />
 
@@ -20,6 +21,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="Seconde Activity"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_counter"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:text="counter"
         android:textAllCaps="false" />
 
 </LinearLayout>
